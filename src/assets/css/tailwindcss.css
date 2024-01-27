@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+}
+
+@layer utilities {
+  .nav-link-active {
+    @apply after:w-full after:border-b-2 after:border-white after:absolute after:bottom-0;
+  }
+}
