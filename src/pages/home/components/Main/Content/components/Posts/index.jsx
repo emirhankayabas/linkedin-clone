@@ -73,7 +73,7 @@ export default function Posts() {
         <div className="px-1 pt-2">
           <div>
             <img
-              src="https://emirhankayabas.com.tr/demo/public/thema-v1/images/backdrop/original.jpg"
+              src="https://emirhankayabas.com.tr/demo/public/thema-v1/images/backdrop/landing-page.png"
               alt="Post Image"
               className="w-full"
             />
