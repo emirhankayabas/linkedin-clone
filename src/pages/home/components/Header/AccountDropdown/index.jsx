@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
 import { Menu } from "@headlessui/react";
 import { FaCaretDown } from "react-icons/fa";
+import Avatar from "~/components/Avatar";
 
 export default function AccountDropdown() {
   return (
     <Menu>
       <Menu.Button className="text-[#ffffffbf] hover:text-white transition-colors flex flex-col items-center justify-center min-w-[82px] min-h-[52px]">
-        <img
-          src="https://avatars.githubusercontent.com/u/92752721?v=4"
-          alt="Avatar"
-          className="w-[24px] h-[24px] rounded-full"
-        />
+        <Avatar className={"w-[24px] h-[24px] rounded-full"} />
         <span className="flex items-center justify-center text-xs">
           Ben <FaCaretDown />
         </span>

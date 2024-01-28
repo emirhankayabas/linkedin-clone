@@ -2,19 +2,20 @@ import { Link } from "react-router-dom";
 import { IoBookmark } from "react-icons/io5";
 import { HiPlus } from "react-icons/hi";
 import Banner from "~/assets/images/banner.jpg";
+import Avatar from "~/components/Avatar";
 
 export default function SideBar() {
   return (
-    <aside className="w-[225px]">
+    <aside className="w-[225px] min-w-[225px]">
       <div className="mb-2 bg-primary rounded-lg overflow-hidden">
         <div>
           <img src={Banner} alt="banner" className="w-full h-[56px]" />
           <div className="p-3">
             <Link to="/" className="text-center hover:underline group">
-              <img
-                src="https://avatars.githubusercontent.com/u/92752721?v=4"
-                alt="avatar"
-                className="w-16 h-16 rounded-full border-2 border-primary bg-primary mx-auto mt-[-48px] relative"
+              <Avatar
+                className={
+                  "w-16 h-16 rounded-full border-2 border-primary bg-primary mx-auto mt-[-48px] relative"
+                }
               />
               <h6 className="pt-4 font-semibold text-base text-white text-opacity-90 group-hover:text-opacity-100 transition-colors">
                 Emirhan Kayabaş

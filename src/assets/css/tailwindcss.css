@@ -12,4 +12,8 @@
   .nav-link-active {
     @apply after:w-full after:border-b-2 after:border-white after:absolute after:bottom-0;
   }
+
+  .show-more span[width="0"] span:first-child {
+    display: inherit !important;
+  }
 }
