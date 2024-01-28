@@ -46,7 +46,7 @@ export default function RightBar() {
           </Link>
           <Link to="/" className="flex gap-x-3">
             <img
-              src="https://i.pravatar.cc/300"
+              src="https://i.pravatar.cc/301"
               alt="avatar"
               className="w-12 h-12 rounded-full"
             />
@@ -65,7 +65,7 @@ export default function RightBar() {
           </Link>
           <Link to="/" className="flex gap-x-3">
             <img
-              src="https://i.pravatar.cc/300"
+              src="https://i.pravatar.cc/302"
               alt="avatar"
               className="w-12 h-12 rounded-full"
             />
