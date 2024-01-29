@@ -9,6 +9,6 @@ export default function Avatar({
 }
 
 Avatar.propTypes = {
-  src: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  src: PropTypes.string,
+  alt: PropTypes.string,
 };

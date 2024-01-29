@@ -9,7 +9,7 @@ const Search = () => {
       <input
         type="text"
         placeholder="Arama yap"
-        className="w-[280px] h-[34px] bg-gray-800 text-white text-opacity-90 text-sm px-10 rounded-[4px] focus:w-96 transition-all focus:text-base"
+        className="w-[280px] h-[34px] bg-[#38434f] text-white text-opacity-90 text-sm px-10 rounded-[4px] focus:w-96 transition-all focus:text-base"
       />
     </div>
   );
